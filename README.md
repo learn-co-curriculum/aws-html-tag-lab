@@ -15,7 +15,10 @@ tag from scratch and examining each of its parts.
 
 Fork and clone this lesson into your local environment. Navigate into its
 directory in the terminal, then run `code .` to open the files in Visual Studio
-Code. Run `learn test` as you go to see your test progress.
+Code. 
+
+Install all the dependencies with `npm install` to ensure you can test
+your work as you go with `npm test`.
 
 ## Code an `h1` Tag
 
@@ -25,7 +28,7 @@ Open `index.html` in your text editor. Add the `h1` opening and closing tags.
 
 Inside of the opening and closing `h1` tags, insert the text: `Hello, World!`.
 
-Check your progress by running `learn test`. Failing tests will provide helpful
+Check your progress by running `npm test`. Failing tests will provide helpful
 error messages that you can use to debug your code — read them closely for
 hints!
 
@@ -70,6 +73,6 @@ each other to create an entire HTML document structure.
 
 ## Resources
 
-- [h1-h6 Tags](https://www.w3schools.com/tags/tag_hn.asp)
+- [Header Tags](https://www.w3schools.com/tags/tag_hn.asp)
 - [Solving the First HTML Lab](https://www.youtube.com/watch?v=Jc0HIoTLxe4) (If
   you're stuck, here's a video walk-through of the lab to help you out.)
